@@ -12,8 +12,9 @@ Deploy the complete Bank Design full-stack application onto AWS cloud infrastruc
 ## 📋 Module Roadmap & Tasks
 
 ### Step 1: Backend Deployment
-* Provision EC2/App Runner instance, build Python backend runtime environment, and connect to DocumentDB.
+* Provision EC2/~~App Runner~~ instance, build Python backend runtime environment, and connect to DocumentDB.
 * Configure environment secrets using AWS Systems Manager Parameter Store.
+    * *Note: App Runner is deprecated*
 
 ### Step 2: Frontend Deployment
 * Build production bundle (`npm run build`).
